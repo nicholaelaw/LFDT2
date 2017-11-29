@@ -1,0 +1,26 @@
+Package: LFDT2
+Type: Package
+Title: Solving Data Problems in My Job
+Version: 0.0.0000
+Author: Mu Yifeng
+Maintainer: Mu Yifeng <mouyf@lfleasing.com>
+Description:
+    The third iteration. Goals:
+    1. Modularised functions;
+    2. Consistent naming schemes;
+    3. Platform independent;
+    4. Consistent output (and logging).
+    Also, from the second iteration:
+    1. Able to dump and export data on demand;
+    2. Establish a reliable and consistent workflow;
+    3. Build a handy collection of data.
+    4. Mayhaps, serve as foundation that would support a future BI system.
+License: PRIVATE
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 6.0.1
+Depends: R (>= 2.14.0)
+Imports: data.table (>= 1.10.4), magrittr, lubridate, jsonlite, openssl, httr, stringi, xml2, methods, tibble
+Suggests: openxlsx, formattable
+SystemRequirements:
+    To be determined
