@@ -21,6 +21,6 @@ LazyData: false
 RoxygenNote: 6.0.1
 Depends: R (>= 2.14.0)
 Imports: data.table (>= 1.10.4), magrittr, lubridate, jsonlite, openssl, httr, stringi, xml2, methods, tibble
-Suggests: openxlsx, formattable
+Suggests: openxlsx, formattable, secure
 SystemRequirements:
     To be determined
