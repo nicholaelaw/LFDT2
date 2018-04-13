@@ -1,0 +1,40 @@
+---
+title: "Vignette Title"
+author: "Vignette Author"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This documentation attempts record and organize my thoughts on package design and implementation
+
+
+## Consistency Check
+
+- For contract that is current, check for duplicated contract ID. (One exception exists)
+- For cashflows, check for duplicated (contract ID, cashflow No.).
+
+## Base Data Structuring
+
+- Correct erroneous record.
+- Add product family, product series.
+- Add contract isCurrent status.
+- Add predicted contract closing date.
+- Add actual contract closing date.
+- Add contract default status and statistics.
+- Add collateral compensation status.
+- Add attachment handles (link/ID by which attachments can be retrieved).
+- Add contract balance data.
+- Add GPS tracking statistics.
+
+## 

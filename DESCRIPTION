@@ -14,13 +14,16 @@ Description:
     1. Able to dump and export data on demand;
     2. Establish a reliable and consistent workflow;
     3. Build a handy collection of data.
-    4. Mayhaps, serve as foundation that would support a future BI system.
+    4. Possibly become the foundation that would support a future BI system.
 License: PRIVATE
 Encoding: UTF-8
 LazyData: false
 RoxygenNote: 6.0.1
-Depends: R (>= 2.14.0)
+Depends: R (>= 2.14.0), methods, data.table (>= 1.10.4), magrittr, lubridate, jsonlite, httr, stringi, xml2, secret
 Imports: data.table (>= 1.10.4), magrittr, lubridate, jsonlite, openssl, httr, stringi, xml2, methods, tibble
-Suggests: openxlsx, formattable, secret
+Suggests: openxlsx, formattable, secret,
+    knitr,
+    rmarkdown
 SystemRequirements:
     To be determined
+VignetteBuilder: knitr
